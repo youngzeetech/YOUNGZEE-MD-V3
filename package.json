@@ -1,0 +1,63 @@
+{
+  "name": "youngzee-md-v3",
+  "version": "3.0.0",
+  "description": "Next-Gen WhatsApp Multi-Device Bot using Baileys - Pair Code + AntiBan",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node flash.js && node --loader ./preload.js index.js",
+    "dev": "node index.js",
+    "postinstall": "PUPPETEER_SKIP_DOWNLOAD=true npm rebuild sharp --force"
+  },
+  "engines": {
+    "node": ">=20.x <=24.x",
+    "npm": ">=9.x"
+  },
+  "author": "YOUNGZEE Team",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.4.0",
+    "adm-zip": "0.5.16",
+    "dotenv": "^16.3.1",
+    "pino": "^8.15.1",
+    "express": "^4.19.2",
+    "yt-search": "^2.10.4",
+    "performance-now": "^2.1.0",
+    "fs-extra": "^11.1.1",
+    "heroku-client": "^3.1.1",
+    "wa-sticker-formatter": "^4.4.4",
+    "node-catbox": "^3.2.0",
+    "file-type": "21.0.0",
+    "ws": "^8.18.0",
+    "cheerio": "^1.0.0-rc.10",
+    "qs": "^6.11.6",
+    "@xaviabot/fb-downloader": "^1.0.14",
+    "aptoide_scrapper_fixed": "1.0.2",
+    "mumaker": "^2.0.0",
+    "moment-timezone": "^0.5.43",
+    "g-i-s": "^2.1.7",
+    "node-cron": "^3.0.3",
+    "translatte": "^3.0.1",
+    "ruhend-scraper": "9.0.8",
+    "node-fetch": "^3.3.2",
+    "simple-xml-to-json": "1.0.0",
+    "nayan-api-servers": "^2.4.8",
+    "nayan-media-downloaders": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^23.1.1",
+    "sharp": "^0.33.5",
+    "ffmpeg-static": "5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^1.6.0",
+    "acrcloud": "^1.4.0"
+  },
+  "overrides": {
+    "sharp": "^0.33.5"
+  }
+}
