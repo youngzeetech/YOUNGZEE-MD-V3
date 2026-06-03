@@ -141,3 +141,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# WHATSAPP BOT FILES - DO NOT UPLOAD TO GITHUB
+session/
+database.json
