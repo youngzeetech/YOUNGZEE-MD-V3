@@ -145,3 +145,4 @@ vite.config.ts.timestamp-*
 # WHATSAPP BOT FILES - DO NOT UPLOAD TO GITHUB
 session/
 database.json
+.env
